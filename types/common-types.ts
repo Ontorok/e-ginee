@@ -6,3 +6,11 @@ export type route = {
   href: string;
   color?: string;
 };
+
+export type tool = {
+  label: string;
+  icon: LucideIcon;
+  href: string;
+  color: string;
+  bgColor: string;
+};
