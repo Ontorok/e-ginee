@@ -4,12 +4,7 @@ import { UserButton } from "@clerk/nextjs";
 type Props = {};
 
 const DashboardPage = (props: Props) => {
-  return (
-    <div>
-      Dashboard
-      <UserButton afterSignOutUrl="/" />
-    </div>
-  );
+  return <div>Dashboard</div>;
 };
 
 export default DashboardPage;
