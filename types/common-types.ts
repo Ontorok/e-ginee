@@ -14,3 +14,5 @@ export type tool = {
   color: string;
   bgColor: string;
 };
+
+export type Dropdown<T> = { lable: string; value: T };
