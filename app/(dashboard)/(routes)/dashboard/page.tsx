@@ -1,5 +1,4 @@
 // Global Imports
-import React from "react";
 import {
   ArrowRight,
   Code,
@@ -8,7 +7,6 @@ import {
   Music,
   VideoIcon,
 } from "lucide-react";
-import { useRouter } from "next/navigation";
 
 // Local Imports
 import { Card } from "@/components/ui/card";
@@ -50,7 +48,7 @@ const tools: tool[] = [
     icon: Code,
     color: "text-green-500",
     bgColor: "bg-green-500/10",
-    href: "/music",
+    href: "/code",
   },
 ];
 
